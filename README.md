@@ -20,7 +20,17 @@ nom = "Luis" num = "10" nom = "María"
 
 acabar con sena
 
-### Dia 16/08/22
+
+### Dia 19/08/22
+
+Sub Suma() a = Int(InputBox("Digitar el numero para la variable a")) b = Int(InputBox("Digitar el numero para la variable b"))
+
+c = a + b
+
+MsgBox "El resultado es:" & c
+Finalizar sub
+
+### Dia 26/08/22
 
 Ejercicio de ingreo anual
 ``` 
@@ -61,15 +71,6 @@ Else
 End If
 
 ``` 
-### Dia 19/08/22
-
-Sub Suma() a = Int(InputBox("Digitar el numero para la variable a")) b = Int(InputBox("Digitar el numero para la variable b"))
-
-c = a + b
-
-MsgBox "El resultado es:" & c
-
-Finalizar sub
 
 
 ### Dia 24/08/22
@@ -138,3 +139,28 @@ Sub sena()
     Next x
 End Sub
 ``` 
+
+## 02/09/2022
+Ejercicio con Len y Mid
+
+
+Sub nombres()
+    For x = 2 To 21
+        nombre = Nom.Cells(x, 1)
+        ulti = Len(nombre) - 1
+        Nom.Cells(x, 2) = Mid(nombre, ulti, 2)
+    Next x
+End Sub
+ 
+Ejercicio #2
+
+
+Sub nombres()
+    For x = 2 To 21
+    nombre = Nom.Cells(x, 1)
+    año = Nom.Cells(x, 2)
+    municipio = Nom.Cells(x, 3)
+    ulti = Len(municipio) - 1
+    Nom.Cells(x, 4) = Mid(año, 1, 2) & Mid(municipio, ulti, 2) & Mid(nombre, 1, 2)
+    Next x
+End Sub
