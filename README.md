@@ -30,6 +30,12 @@ c = a + b
 MsgBox "El resultado es:" & c
 Finalizar sub
 
+### Dia 24/08/22
+
+ingrese el nombre de un alumno y las notas de un examen parcial, examen final y el promedio de practicas; muestre el nombre del alumno y su promedio final solo si el alumno está aprobado,tenga en cuenta que para el calculo del promedio la nota del examen final tiene peso doble
+
+End Sub
+
 ### Dia 26/08/22
 
 Ejercicio de ingreo anual
@@ -71,13 +77,6 @@ Else
 End If
 
 ``` 
-
-
-### Dia 24/08/22
-
-ingrese el nombre de un alumno y las notas de un examen parcial, examen final y el promedio de practicas; muestre el nombre del alumno y su promedio final solo si el alumno está aprobado,tenga en cuenta que para el calculo del promedio la nota del examen final tiene peso doble
-
-End Sub
 
 ### Dia 28/08/22
 
